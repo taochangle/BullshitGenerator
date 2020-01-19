@@ -13,10 +13,8 @@ class BullshitGenerator
     public function generator($title = '你好骚啊', $length = 1000, $data = 'data.json')
     {
         $body = "";
-        $data = __DIR__ . DIRECTORY_SEPARATOR . $data;
-
+        $data = dirname(dirname(__FILE__)) . DIRECTORY_SEPARATOR . $data;
         $data = json_decode(file_get_contents($data), true);
-
         while (strlen($body) / 3 < $length) {
 
             $num = rand(0, 100);
