@@ -36,6 +36,5 @@ class BullshitGenerator
     }
 }
 
-$BullshitGenerator = new BullshitGenerator();
-echo $BullshitGenerator->generator();
+
  

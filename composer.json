@@ -1,0 +1,30 @@
+{
+  "name": "tao/BullshitGenerator",
+  "description": "狗屁不通文章生成器",
+  "type": "library",
+  "license": "Unlicense",
+  "keywords": [
+    "php",
+    "BullshitGenerator",
+    "Generator",
+    "Bullshit",
+    "狗屁不通",
+    "文章生成器",
+    "生成器"
+  ],
+  "authors": [
+    {
+      "name": "taoxin",
+      "email": "taoxin0704@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "tao\\": "src/"
+    }
+  }
+}
