@@ -23,7 +23,7 @@
   },
   "autoload": {
     "psr-4": {
-      "taoxin\\bullshit-generator\\": "src/"
+      "taoxin\\generator\\": "src/"
     }
   }
 }
