@@ -1,6 +1,6 @@
 <?php
 
-namespace tao;
+namespace taoxin;
 
 class BullshitGenerator
 {
