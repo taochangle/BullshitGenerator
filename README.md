@@ -2,12 +2,12 @@
 
 ## 安装
 
-> composer require tao/bullshit-generator
+> composer require taoxin/bullshit-generator
 
 ## 使用
 
 ```
-use tao\BullshitGenerator;
+use taoxin\generator\BullshitGenerator
 $BullshitGenerator = new BullshitGenerator();
 echo $BullshitGenerator->generator("我是一个粉刷匠",1000);
 ```
